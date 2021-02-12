@@ -1,0 +1,65 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+}
+
+body .root {
+  width: 400px;
+  height: 600px;
+  background-color: navajowhite;
+  border: 1px solid;
+  border-top: none;
+  overflow: hidden;
+}
+
+body .root .needle {
+  height: 25px;
+  width: 2px;
+  background-color: darkcyan;
+  position: absolute;
+}
+
+body .root .ballon {
+  position: absolute;
+  border: 1px solid;
+  border-radius: 57% 57% 80% 80%;
+}
+
+body .button {
+  width: 50px;
+  height: 30px;
+}
+
+body .results {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00000085;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 5;
+  display: none;
+}
+
+body .results .resultsTable {
+  width: 350px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+}
+/*# sourceMappingURL=style.css.map */
